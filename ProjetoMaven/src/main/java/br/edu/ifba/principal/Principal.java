@@ -27,18 +27,18 @@ public class Principal {
 		
 		Cliente c = new Cliente();
 		
-		c.setNome("Sicrano");
+		c.setNome("lulua");
 		c.setCpf("0568953");
 		c.setRg("956233254");
 		c.setCategoria(em.find(Categoria.class, 1));		
 		Endereco e = new Endereco();
 		
-		e.setBairro("Tal");
+		e.setBairro("licantrino");
 		e.setCep("48562-000");
-		e.setCidade("Lá longe");
+		e.setCidade("Lagoa grande");
 		e.setEstado("Bahia");
 		e.setNumero("200");
-		e.setRua("Lá");
+		e.setRua("fria serrana");
 	
 	c.setEndereco(e);
 		
